@@ -12,5 +12,6 @@ public enum EnumerationSingleton {
         System.out.println(i.ordinal());
         System.out.println(i.toString());
         System.out.println(i.getDeclaringClass());
+
     }
 }
