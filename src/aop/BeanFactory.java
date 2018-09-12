@@ -10,7 +10,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Properties;
 
-public class BeanFactory implements IManager{
+public class BeanFactory {
     Properties prop = new Properties();
     public BeanFactory(InputStream in){
         try{
@@ -54,8 +54,4 @@ public class BeanFactory implements IManager{
         return bean;
     }
 
-    @Override
-    public void add(String item) {
-
-    }
 }
